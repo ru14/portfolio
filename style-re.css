@@ -42,13 +42,12 @@ nav li:hover {
     height: 21px;
 }
 
-.lang1,
-.lang2,
-.lang3 {
+
+.lang-item{
     width: 100px;
-    height: 50px;
     border: 1.5rem;
-    background-color: red;
+    margin: 1rem;
+    background-color: blue;
     font-weight: bold;
     text-align: center;
 }
