@@ -159,8 +159,9 @@ h4 {
 .img1 {
     float: left;
     padding-right: 20px;
-    width: auto;
-    height: 100%;
+    width: 30%;
+    height: auto;
+    aspect-ratio: auto;
 }
 
 .icon {
