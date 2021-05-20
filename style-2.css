@@ -32,8 +32,11 @@ body {
   /* element to animate */
 .hotairballoon1{
     position:absolute;
-    top :-48px;
-}
+    animation: hotairballoon1; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;}
+
+
 .hotairballoon2{
 position:absolute;
     top :-48px;
@@ -46,7 +49,14 @@ position:absolute;
     position:absolute;
     top :-48px;
 }
-
+@keyframes hotairballoon1 { 
+  0%{top: 25px; left: 100px; height: 100%; width: 100%;}
+  25%{top: 100px; left: -25px;}
+  50%{top: 250px; left: 75px; height: 25%; width: 25%;}
+  75% {left: 0px; top: 200px;}
+  100%{top: 25px;left: 100px;}
+  
+}
 
 
 
