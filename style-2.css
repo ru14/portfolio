@@ -30,22 +30,22 @@ body {
 
 
   /* element to animate */
-.balloon1{
+img#balloon1{
     position:absolute;
     animation: hotairballoon1; 
     animation-iteration-count: infinite;
     animation-duration: 10s;}
 
 
-.hotairballoon2{
+.balloon2{
 position:absolute;
     top :-48px;
 }
-.hotairballoon3{
+.balloon3{
     position:absolute;
     top :-48px;
 }
-.hotairballoon4{
+.balloon4{
     position:absolute;
     top :-48px;
 }
