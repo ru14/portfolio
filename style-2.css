@@ -30,7 +30,7 @@ body {
 
 
   /* element to animate */
-.hotairballoon1{
+.balloon1{
     position:absolute;
     animation: hotairballoon1; 
     animation-iteration-count: infinite;
