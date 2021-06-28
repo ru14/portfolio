@@ -55,58 +55,127 @@
 
     <section class="project-area">
         <div class="continer">
-<div class="project-title pb-5">
-    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-    <h1 class="text-uppercase title-h1">Quality Work</h1>
-</div>
-<div class="button-group">
-    <button type="button" class="active">All</button>
-    <button type="button">Popular</button>
-    <button type="button">Latest</button>
-    <button type="button">Following</button>
-    <button type="button">Upcoming</button>
-</div>
-<div class="row grid">
-    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-        <div class="our-project">
-            <div class="img">
-                <img src="./assets/space.jpg" alt="project-1"/>
+            <div class="project-title pb-5">
+                <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                <h1 class="text-uppercase title-h1">Quality Work</h1>
             </div>
-            <div class="title py-4">
-                <h4 class="text-uppercase">Minimul Desing</h4>
-                <span class="text-secondry">Latest, Project</span>
+            <div class="button-group">
+                <button type="button" class="active">All</button>
+                <button type="button">Popular</button>
+                <button type="button">Latest</button>
+                <button type="button">Following</button>
+                <button type="button">Upcoming</button>
             </div>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-        <div class="our-project">
-            <div class="img">
-                <img src="./assets/tool.jpg" alt="project-2"/>
+            <div class="row grid">
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./assets/Space.jpg" alt="project-1" />
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">
+                                NASA App</h4>
+                                    <span class="text-secondry">Latest, Project</span>
+                                    <button onclick="myFunction()" id="myBtn">View Details</button>
+                                    <p><span id="dots">...</span><span id="more">A site for sharing, trading, and
+                                            borrowing tools: a community tradition, brought to the web.
+                                            note data from a JSON file.
+                                            <a href="https://pacific-tor-20392.herokuapp.com/"> * deployed
+                                                application.</a>
+                                            <a href="https://github.com/ru14/Toolshare"> * Link to Github.</a>
+                                        </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./assets/tool.jpg" alt="project-2" />
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Tool Sharing App</h4>
+                            <span class="text-secondry">Popular, Project</span>
+                            <button onclick="myFunction1()" id="myBtn1">View Details</button>
+                            <p><span id="dots1">...</span><span id="more1">A site for sharing, trading, and borrowing
+                                    tools: a community tradition, brought to the web.
+                                    note data from a JSON file.
+                                    <a href="https://pacific-tor-20392.herokuapp.com/"> * deployed application.</a>
+                                    <a href="https://github.com/ru14/Toolshare"> * Link to Github.</a>
+                                </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./assets/notetaker.jpg" alt="project-3-" />
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Note Taker</h4>
+                            <span class="text-secondry">Popular, Project</span>
+                            <button onclick="myFunction2()" id="myBtn2">View Details</button>
+                            <p><span id="dots2">...</span><span id="more2">Note Taker that can be used to write and save
+                                    notes. This application will use an Express.js back end and will save and retrieve
+                                    note data from a JSON file.
+                                    <a href="https://raginee-note-taker.herokuapp.com"> * deployed application.</a>
+                                    <a href="https://github.com/ru14/Note-Taker"> * Link to GitHub.</a>
+                                </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./assets/workout-tracker.jpg" alt="project-4-" />
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Workout-Tracker</h4>
+                            <span class="text-secondry">Popular, Project</span>
+                            <button onclick="myFunction3()" id="myBtn3">View Details</button>
+                            <p><span id="dots3">...</span><span id="more3">This app lets you view, create, and track daily workouts. You can log multiple exercises in a workout on a given day and track the name, type, weight, sets, reps, duration of exercise, and distance traveled if the exercise is a cardio exercise.
+                                    <a href="https://ancient-beyond-52470.herokuapp.com/"> * deployed application.</a>
+                                    <a href="https://github.com/ru14/Workout-Tracker"> * Link to GitHub.</a>
+                                </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <img src="./assets/employee-directory.jpg" alt="project-4-" />
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Employee-directory</h4>
+                            <span class="text-secondry">Popular, Project</span>
+                            <button onclick="myFunction4()" id="myBtn4">View Details</button>
+                            <p><span id="dots4">...</span><span id="more4">I had to create an employee directory with React. This assignment required me to break up the application's UI into components, manage component state, and respond to user events. Employee data was generated with the [randomuser.me API](https://randomuser.me).
+                                    <a href="https://ru14.github.io/Employee-Directory/"> * deployed application.</a>
+                                    <a href="https://github.com/ru14/Employee-Directory"> * Link to GitHub.</a>
+                                </span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="title py-4">
-                <h4 class="text-uppercase">Tool Sharing App</h4>
-                <span class="text-secondry">Popular, Project</span>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-        <div class="our-project">
-            <div class="img">
-                <img src="./assets/notetaker.jpg" alt="project-3-"/>
-            </div>
-            <div class="title py-4">
-                <h4 class="text-uppercase">Note Taker</h4>
-                <span class="text-secondry">Popular, Project</span>
-            </div>
-        </div>
-    </div>
-</div>
         </div>
     </section>
 
     <section class="row">
         <h5>Contact</h5>
-
+        <div class="container-fluid  p-3 my-3 border">
+            <div class="p-3 my-3 border text-center" style="background-color: aliceblue;width: 18rem;">
+                <img src="assets/IMG_0219.png" alt="Avatar" style="max-width: 10%;
+                " class="rounded-circle">
+                <h1>Raginee Upadhyaya</h1>
+                <p>Web Developer from Seattle</p>
+                <p><i class="fas fa-map-marker-alt"></i> Seattle, WA</p>
+                <a href="mailto:upadhyayaraginee@gmail.com" class="fa fa-google"></a>
+                <a href="https://www.linkedin.com/in/ru12" class="fa fa-linkedin"></a>
+                <a href="https://github.com/ru14" class="fa fa-github"></a>
+                <a href="https://docs.google.com/document/d/1QAEf1_Pu-lFm3qpdo_FqYQs4BssFxx-1jZcFF1zhPDc/edit?usp=sharing"
+                    class="fa fa-link"></a>
+                <a href="tel:+15403533653" class="fa fa-phone-volume"></a>
+            </div>
+        </div>
 
     </section>
 

@@ -162,7 +162,9 @@ h4 {
     height: auto;
     aspect-ratio: auto;
 }
-
+#more{
+    display: none;
+  }
 .icon {
     position: absolute;
     margin-left: 30%;
