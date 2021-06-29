@@ -9,7 +9,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(36, 25, 25);
-    color: antiquewhite
+    color: antiquewhite;
+    
+    
 }
 
 h1 {
@@ -135,6 +137,7 @@ nav li:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     background-color: #f1f1f1;
+    
 }
 
 h2,
@@ -148,11 +151,12 @@ h4 {
 .About {
     background-color: rgb(81, 182, 238);
     min-height: 450px;
+    overflow: auto;
 }
 
 .container {
     padding: 20px;
-    overflow: auto;
+    
 }
 
 .img1 {
