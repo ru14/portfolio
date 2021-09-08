@@ -43,13 +43,19 @@ nav li:hover {
     width: 30px;
     height: 21px;
 }
-
+.button-group button {
+    margin: 10px;
+    margin-bottom: 40px;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    }
 
 .lang-item{
     width: 100px;
     border: 1.5rem;
     margin: 1rem;
-    background-color: blue;
+    
     font-weight: bold;
     text-align: center;
 }
