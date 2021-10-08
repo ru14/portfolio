@@ -39,8 +39,11 @@ img#balloon1{
 
 .balloon2{
 position:absolute;
-    top :-48px;
-}
+animation: hotairballoon2; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;}
+    
+
 .balloon3{
     position:absolute;
     top :-48px;
